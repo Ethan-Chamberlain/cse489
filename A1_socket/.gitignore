@@ -1,0 +1,20 @@
+# Compiled binaries
+client
+server
+
+# Vim swap/backup files
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+*.swk
+*.swh
+*~
+
+# macOS
+.DS_Store
+
+# Build artifacts
+*.o
+*.dSYM/
