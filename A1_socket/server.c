@@ -25,10 +25,15 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
+    // int listenSoc;
+
     // TODO: Create a TCP listen socket (AF_INET, SOCK_STREAM).
     // TODO: Set SO_REUSEADDR on the listen socket.
     // TODO: Bind the socket to INADDR_ANY and the given port.
     // TODO: Listen with a small backlog (e.g., 5-10).
+
+    fprintf(stderr, "args are %s\n", argv[1]);
+
 
     // TODO: Accept clients in an infinite loop.
     //   - For each client, read in chunks until EOF.

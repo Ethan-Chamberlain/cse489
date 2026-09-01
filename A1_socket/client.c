@@ -29,6 +29,8 @@ int main(int argc, char *argv[]) {
     // TODO: Populate sockaddr_in with server IP/port.
     // TODO: Connect to the server.
 
+    fprintf(stderr, "args are %s, %s\n", argv[1], argv[2]);
+
     // TODO: Read from stdin in a loop (read()) and send in chunks.
     // TODO: For each chunk, send the *exact bytes* you read.
     //   - Use send()/write() in a loop to handle partial sends.
